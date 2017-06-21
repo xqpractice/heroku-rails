@@ -1,0 +1,5 @@
+{
+  "name": "heroku-rails",
+  "private": true,
+  "dependencies": {}
+}
