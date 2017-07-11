@@ -23,6 +23,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'delayed_job'
 gem 'delayed_job_active_record'
 gem 'daemons'
+gem 'figaro'
 
 gem 'newrelic_rpm'
 

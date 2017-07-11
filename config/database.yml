@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: heroku-rails_production
-  username: heroku-rails
-  password: <%= ENV['HEROKU-RAILS_DATABASE_PASSWORD'] %>
+  database: xq_production
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
