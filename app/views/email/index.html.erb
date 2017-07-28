@@ -1,0 +1,19 @@
+<h1>Send Email</h1>
+
+<div>
+  <form accept-charset="UTF-8" action="/email/send" method="post">
+    <div>
+      <label for="to">To: </label><br/>
+      <input id="to" name="to" placeholder="to address"/>
+    </div>
+    <div>
+      <label for="subject">Subject: </label><br/>
+      <input id="subject" name="subject" placeholder="subject"/>
+    </div>
+    <div>
+      <label for="message">Message: </label><br/>
+      <textarea id="message" name="message" rows="5"></textarea>
+    </div>
+    <input type="submit" value="Send Email" />
+  </form>
+</div>

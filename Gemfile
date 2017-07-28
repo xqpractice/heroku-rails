@@ -24,6 +24,7 @@ gem 'delayed_job'
 gem 'delayed_job_active_record'
 gem 'daemons'
 gem 'figaro'
+gem 'mailgun-ruby', '~> 1.1', '>= 1.1.6'
 
 gem 'newrelic_rpm'
 
